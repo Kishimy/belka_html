@@ -64,7 +64,13 @@
     }
 }
 
-/*banner*/
+
+
+
+
+
+/*----banner-----*/
+
 .banner {
     display: block;
     text-align: center;
@@ -185,7 +191,11 @@
 }
 
 
-/*services*/
+
+
+
+
+/*---services----*/
 
 .services_title,
 .services_description {
@@ -254,7 +264,11 @@
 }
 
 
-/*about*/
+
+
+
+
+/*---about------*/
 
 .about {
     display: flex;
@@ -306,7 +320,12 @@
     color: white;
 }
 
-/*price*/
+
+
+
+
+
+/*---price---*/
 
 .price {
     padding-top: 130px;
@@ -403,7 +422,11 @@
 }
 
 
-/*steps*/
+
+
+
+
+/*---steps---*/
 
 .steps {
     text-align: center;
@@ -474,7 +497,12 @@
 
 
 
-/*clients*/
+
+
+
+
+
+/*---clients---*/
 
 .clients {
 
@@ -553,7 +581,13 @@
 }
 
 
-/*newsletter*/
+
+
+
+
+
+
+/*---newsletter---*/
 
 .newsletter {
 
@@ -639,7 +673,14 @@
 
 }
 
-/*contacts*/
+
+
+
+
+
+
+
+/*---contacts---*/
 
 .contacts {
     width: 1150px;
@@ -695,7 +736,15 @@
 
 }
 
-/*footer*/
+
+
+
+
+
+
+
+
+/*---footer---*/
 
 .footer_menu_list {
     display: flex;
