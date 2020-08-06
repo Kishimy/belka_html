@@ -1,0 +1,73 @@
+$white: #ffffff;
+$red: #ba0000;
+$yellow: #ffcc00;
+$font-size: 14px;
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url("src/fonts/Poppins-Regular") format('truetype');
+}
+
+*:focus {
+    outline: none;
+}
+
+.top-menu{  
+    min-width: 100%;
+    height: 120px;
+    align-items: center;  
+    text-align: center;  
+    background-color: $yellow;
+    font-size: $font-size;
+    font-family: 'Poppins Regular', sans-serif;  
+}
+
+.top-menu__container{
+    display: flex;
+    max-width: 1170px;
+    height: 100%;
+    margin: auto;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-menu__menu__list{
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+.top-menu__menu__list__item{
+    margin-right: 45px;
+}
+
+.top-menu__menu__list__item__text{
+    
+    color: $red;
+    text-decoration: none;
+    height: 100%;
+}
+
+.top-menu__menu__list__item__text:hover{
+    padding-bottom: 47px;
+    color: $red;
+    text-decoration: none;
+    border-bottom: solid 2px $red;
+}
+
+.top-menu__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    background-color: $red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; 
+    cursor: pointer;
+}
+
+.fa-search{
+    color: $white;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "DHL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^13.0.0",
+    "normalize.css": "^8.0.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-htmlacademy": "^0.1.4",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.18.0",
+    "tiny-slider": "^2.9.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-htmlacademy": "^0.5.2",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start",
+    "style": "gulp style",
+    "script": "gulp script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

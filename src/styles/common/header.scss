@@ -1,0 +1,61 @@
+$white: #ffffff;
+$red: #ba0000;
+$font-size: 14px;
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url("src/fonts/Poppins-Regular") format('truetype');
+}
+
+*:focus {
+    outline: none;
+}
+
+.header {
+    min-width: 100%;
+    height: 45px;
+    background-color: $red;
+    color: $white;
+    font-size: $font-size;
+    font-family: 'Poppins Regular', sans-serif;   
+}
+
+.header__container {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    max-width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__container__language__select, .header__container__language__text__country{    
+    text-align: center;      
+    border: 0;
+    border-radius: 1px;
+    background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 180 180' width='14' height='14' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='white'/></g></svg>") no-repeat;
+    -webkit-appearance: none;   
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: $red;
+    color: $white;
+}
+
+.header__container__language__select{
+    width: 75px;
+    background-position: right 5px top 100%;
+}
+
+.header__container__language__text__country{
+    width: 130px;
+    background-position: right 5px top 100%;
+}
+
+.fa-users {
+    margin-right: 5px;
+}
+
+.header__container__language__text__contact {
+    margin-right: 25px;
+}
