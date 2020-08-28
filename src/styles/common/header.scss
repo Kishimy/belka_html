@@ -1,0 +1,114 @@
+@import "common/global";
+
+.header {
+    background-image: url(/../../build/images/header-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    max-width: 1920px;    
+}
+
+.header__container {       
+    @include flex-center ();
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $gray;     
+}
+
+.header_logo {
+    margin-left: 0;
+}
+
+.header__list {
+    display: flex;  
+    margin: 0;  
+}
+
+.header__list__item {
+    list-style-type: none;
+    margin-left: 45px;
+}
+
+.header__list__item_text {
+    height: 100%;
+    font-family: 'Myriad Pro';
+    font-size: 20px;
+    color: $white;
+    text-decoration: none;
+}
+
+.header__list__item_text:hover{
+    border-bottom: 4px solid $blue;
+    padding-bottom: 33px;    
+}
+
+.header__icons {
+    color: $white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.header__icons i {
+    margin-left: 25px;
+}
+
+.banner {   
+    @include flex-center (); 
+    flex-direction: column;  
+    margin: 0 auto;  
+    margin-top: 280px;    
+}
+
+.banner__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Gotham Bold';
+    font-size: 152px;
+    color: $white;
+}
+
+.banner__text {
+    font-family: 'Myriad Pro';
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    font-size: 25px;
+    color: $blue;
+    margin-top: -30px;
+}
+
+.banner__button__container {
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.banner__button__text {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: $white;    
+}
+
+.banner__button__button{   
+    @include flex-center ();
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 8px;     
+    padding: 20px;
+    border: 2px solid $white;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.arrow-down { 
+    border: solid $white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

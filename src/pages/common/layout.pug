@@ -1,0 +1,16 @@
+doctype html
+html(lang=ru)
+    block head
+      head 
+       meta(charset="utf-8")
+       title DHL
+       link(rel="stylesheet" href="css/style.css")
+       link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    body
+      block header
+       include header
+      block content          
+      block footer
+       include footer    
+      block scripts
+          script(src='js/main.js')   

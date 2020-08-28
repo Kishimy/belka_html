@@ -1,0 +1,42 @@
+@import "../../../node_modules/normalize.css/normalize";
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url("/src/fonts/gotham-bold.otf") format('opentype');
+}
+@font-face {
+    font-family: 'Gotham Book';
+    src: url("/src/fonts/gotham-book.otf") format('opentype');
+}
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url("/src/fonts/gotham-medium.otf") format('opentype');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("/src/fonts/open-sans.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Bold Condensed';
+    src: url("/src/fonts/roboto-bold-cond.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url("/src/fonts/roboto-regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url("/src/fonts/myriad-pro.otf") format('opentype');
+}
+@mixin flex-center () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+@mixin gotham-up {
+    text-transform: uppercase;
+    font-family: 'Gotham Medium';    
+}
+$white: #ffffff;
+$blue: #11749e;
+$gray: #757575;
