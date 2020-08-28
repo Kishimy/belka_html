@@ -1,0 +1,25 @@
+.map{
+    @include flex-center ();
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.map__img{
+    width: 100%;
+}
+
+.footer{
+    background-color: #222222;
+}
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 115px;  
+    color:$white;
+    font-family: 'Roboto Regular';
+    font-size: 13px;
+}
